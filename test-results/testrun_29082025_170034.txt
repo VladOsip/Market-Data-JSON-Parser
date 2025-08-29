@@ -1,0 +1,21 @@
+=== TEST EXECUTION REPORT ===
+Generated: 29/08/2025 17:00:36
+
+=== SUMMARY ===
+Tests found: 8
+Tests started: 8
+Tests successful: 7
+Tests failed: 1
+Tests skipped: 0
+
+Success rate: 87.5%
+
+=== FAILURE DETAILS ===
+- Test: Should parse and convert complete market data
+  Reason: Unresolved compilation problems: 
+	DefaultMarketTypeResolver cannot be resolved to a type
+	DefaultMarketConverter cannot be resolved to a type
+
+
+
+=== END OF REPORT ===
