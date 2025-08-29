@@ -31,7 +31,10 @@ This Java project parses raw JSON files containing market data, converts them in
 ## How to Run
 
 1. Place your JSON files in the `inputs` folder.
-2. Run the program: java -cp "bin;lib/*" Main
+2. Run the program: 
+```bash
+java -cp "bin:lib/*" Main
+```
 3. Select the file to process (by number or filename).
 4. Output will be written to the `outputs` folder with a timestamped filename.
 
@@ -45,8 +48,11 @@ This Java project parses raw JSON files containing market data, converts them in
   - UID generation
 - Integration tests cover parsing and conversion of sample JSON input.
 
-Run tests with JUnit, for example: java -jar lib/junit-platform-console-standalone-6.0.0-RC2.jar --class-path bin --scan-class-path
+Run tests with JUnit, for example: 
 
+```bash
+java -jar lib/junit-platform-console-standalone-6.0.0-RC2.jar --class-path bin --scan-class-path
+```
 ---
 
 ## Notes
